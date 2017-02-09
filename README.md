@@ -165,6 +165,6 @@ Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
 
 > Tornado周边
 ---------
-- [Cyclone](ttp://github.com/fiorix/cyclone) 使用Twisted event loop
+- [Cyclone](http://github.com/fiorix/cyclone) 使用Twisted event loop
 - [gtornado](https://github.com/wil/gtornado) 使用gevent的猴子补丁
 

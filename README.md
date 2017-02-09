@@ -1,14 +1,18 @@
-# tornado-awesome
-tornado awesome  inherit from python awesome
+Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/hand-code/tornado-awesome)
+=============
 
-## General Resources
-* [[tornado.poweredsites.org|http://tornado.poweredsites.org]] - Listing of sites using Tornado.
-* [[TornadoGists|http://tornadogists.com/]] - A place to post and discuss snippets of Tornado-related code.
-* [[tornadoweb.cn|http://www.tornadoweb.cn]] - A mirror site of tornadoweb.org for China Tornado Users.
+> 通用Tornado 的资源
+---------
 
-## Async Client Libraries built on tornado.ioloop
-* [[Amazon DynamoDB|http://aws.amazon.com/dynamodb/]]
-  * [[asyncdynamo|https://github.com/bitly/asyncdynamo]]
+- 网站资源
+    - [Tornado构建的站点列表](http://tornado.poweredsites.org)
+    - [Tornado 相关的一些snippets code](http://tornadogists.com/)
+    - [中文镜像Tornado站](http://www.tornadoweb.cn)
+
+> 用tornado.ioloop构建的异步客户端
+---------
+- [Amazon DynamoDB](http://aws.amazon.com/dynamodb/)
+    - [asyncdynamo](https://github.com/bitly/asyncdynamo)
 * [[Amazon Web Services|http://aws.amazon.com]]
   * [[ botocore|https://github.com/boto/botocore ]] with [[ tornado-botocore|https://github.com/nanvel/tornado-botocore ]]
 * [[AMQP|http://www.amqp.org/]]

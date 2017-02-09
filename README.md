@@ -4,10 +4,9 @@ Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
 > 通用Tornado 的资源
 ---------
 
-- 网站资源
- - [Tornado构建的站点列表](http://tornado.poweredsites.org)
- - [Tornado 相关的一些snippets code](http://tornadogists.com/)
- - [中文镜像Tornado站](http://www.tornadoweb.cn)
+- [Tornado构建的站点列表](http://tornado.poweredsites.org)
+- [Tornado 相关的一些snippets code](http://tornadogists.com/)
+- [中文镜像Tornado站](http://www.tornadoweb.cn)
 
 > 用tornado.ioloop构建的异步客户端
 ---------

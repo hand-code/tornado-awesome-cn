@@ -76,22 +76,23 @@ Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
  - [event-source-library](https://github.com/guyzmo/event-source-library)
  - [Tornado-sent events](https://github.com/mivade/tornadose)
 
-## Web API Libraries
-* [[async_dropbox|https://github.com/bdarnell/async_dropbox]] - Asynchronous python interface to the Dropbox API.
-* [[tornado_dropcache|https://github.com/singerb/tornado_dropcache]] - High-level, caching Dropbox interface built on top of async_dropbox.
-* [[asyncboto|https://github.com/almost/asyncboto]] - PoC/alpha async version of [[boto|http://code.google.com/p/boto/]] (for [[AWS|http://aws.amazon.com/]]).
-* [[async-python-twitter|https://github.com/kzk/async-python-twitter]] - Asynchronous version of (an outdated 0.6-devel version) of [[python-twitter|http://code.google.com/p/python-twitter/]].
-* [[greplin-tornado-kissmetrics|https://github.com/Greplin/greplin-tornado-kissmetrics]] - A client for the Kissmetrics API.
-* [[greplin-tornado-mixpanel|https://github.com/Greplin/greplin-tornado-mixpanel]] - A client for the Mixpanel API.
-* [[greplin-tornado-ses|https://github.com/Greplin/greplin-tornado-ses]] - An asynchronous client for Amazon SES.
-* [[greplin-tornado-sendgrid|https://github.com/Greplin/greplin-tornado-sendgrid]] - A client for the Sendgrid API.
-* [[greplin-tornado-stripe|https://github.com/Greplin/greplin-tornado-stripe]] - Tornado bindings for Stripe's API.
-* [[sso|https://github.com/liftoff/GateOne/blob/master/gateone/auth/sso.py]] - Tornado authentication handler to perform Single Sign-On (SSO) via Kerberos.
-* [[TweetStream|https://github.com/joshmarshall/TweetStream]] - Simple Twitter Streaming client for Tornado.
-* [[lastfmclient|https://github.com/jakubroztocil/lastfmclient]] - A client for the Last.fm API. Includes an async client for Tornado.
-* [[tornado_apns|https://github.com/kernel1983/tornado_apns]] - Async APNS for iOS device push notification.
-* [[tornado_s3|https://github.com/kernel1983/tornado_s3]] - Async library for AWS S3.
-* [[tornado_ses|https://github.com/kernel1983/tornado_ses]] - Async library for AWS SES email sending.
+> Web Api资源
+---------
+- [async_dropbox](https://github.com/bdarnell/async_dropbox) Dropbox API的异步接口.
+- [tornado_dropcache](https://github.com/singerb/tornado_dropcache) async_dropbox的封装实现
+- [asyncboto](https://github.com/almost/asyncboto) PoC/alpha async version of [boto](http://code.google.com/p/boto/) (for [AWS](http://aws.amazon.com/)).
+- [async-python-twitter](https://github.com/kzk/async-python-twitter) [python-twitter](http://code.google.com/p/python-twitter/)异步版本
+- [greplin-tornado-kissmetrics](https://github.com/Greplin/greplin-tornado-kissmetrics) Kissmetrics API异步客户端
+- [greplin-tornado-mixpanel](https://github.com/Greplin/greplin-tornado-mixpanel) Mixpanel API异步客户端
+- [greplin-tornado-ses](https://github.com/Greplin/greplin-tornado-ses) Amazon SES异步客户端
+- [greplin-tornado-sendgrid](https://github.com/Greplin/greplin-tornado-sendgrid) Sendgrid API异步客户端
+- [greplin-tornado-stripe](https://github.com/Greplin/greplin-tornado-stripe) Stripe's API异步客户端
+- [sso](https://github.com/liftoff/GateOne/blob/master/gateone/auth/sso.py) - Tornado sso authentication handler
+- [TweetStream](https://github.com/joshmarshall/TweetStream) 简单的异步Twitter客户端
+- [lastfmclient](https://github.com/jakubroztocil/lastfmclient) Last.fm API异步客户端
+- [tornado_apns](https://github.com/kernel1983/tornado_apns) 异步APNS iOS推送客户端
+- [tornado_s3](https://github.com/kernel1983/tornado_s3) 
+- [tornado_ses](https://github.com/kernel1983/tornado_ses) AWS SES 邮箱发送客户端
 
 ## Helper Libraries / Frameworks
 * [[AsyncMongo-Sessions|https://github.com/joerussbowman/AsyncMongo-Sessions]] - A sessions library for Tornado using AsyncMongo

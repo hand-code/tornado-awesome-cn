@@ -43,22 +43,22 @@ Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
  - [adisp](http://mysql-python.sourceforge.net/)
  - [TorMySQL](https://github.com/snower/TorMySQL) Tornado asynchronous MySQL Driver by PyMySQL
  - [Tornado-MySQL](https://github.com/PyMySQL/Tornado-MySQL) PyMySQL fork for Tornado
-* [[NATS|http://nats.io/]]
-  * [[python-nats|https://github.com/nats-io/python-nats]] A Python async client for the NATS messaging system.
-* [[PostgreSQL|http://www.postgresql.org/]]
-  * [[momoko|https://github.com/FSX/momoko]] - [[psycopg|http://initd.org/psycopg/]] wrapper.
-  * [[adb|https://github.com/ovidiucp/pymysql-benchmarks]] - 
-[[adisp|https://launchpad.net/adisp]]/[[psycopg|http://initd.org/psycopg/]] based
-  * [[queries|https://github.com/gmr/queries]] - [[psycopg|http://initd.org/psycopg/]] wrapper with an eye on ease of use.
-* [[PrestoDB|https://prestodb.io/]]
-  * [[prestornado|https://github.com/jianingy/prestornado]] Asynchronous PrestoDB (forked from PyHive.presto)
-* [[RabbitMQ|http://www.rabbitmq.com]]
-  * [[Pika|https://github.com/pika/pika]]
-* [[Redis|http://redis.io/]]
-  * [[tornado-redis|https://github.com/leporo/tornado-redis]] (fork of [[brukva|https://github.com/evilkost/brukva]])
-  * [[tornadis|https://github.com/thefab/tornadis]]
-* [[RethinkDB|https://www.rethinkdb.com/]] 
-  * [[rethinkdb|https://www.rethinkdb.com/docs/async-connections/#python-with-tornado-or-twisted]]
+- [NATS](http://nats.io/)
+ - [python-nats](https://github.com/nats-io/python-nats) A Python async client for the NATS messaging system.
+- [PostgreSQL](http://www.postgresql.org/)
+ - [momoko](https://github.com/FSX/momoko)
+ - [psycopg](http://initd.org/psycopg/) wrapper.
+ - [adb](https://github.com/ovidiucp/pymysql-benchmarks)
+ - [queries](https://github.com/gmr/queries)
+- [PrestoDB](https://prestodb.io/)
+ - [prestornado](https://github.com/jianingy/prestornado) Asynchronous PrestoDB (forked from PyHive.presto)
+- [RabbitMQ](http://www.rabbitmq.com)
+ - [Pika](https://github.com/pika/pika)
+- [Redis](http://redis.io/)
+ - [tornado-redis](https://github.com/leporo/tornado-redis) fork of [brukva](https://github.com/evilkost/brukva)
+ - [tornadis](https://github.com/thefab/tornadis)
+- [RethinkDB](https://www.rethinkdb.com/) 
+ - [rethinkdb](https://www.rethinkdb.com/docs/async-connections/#python-with-tornado-or-twisted)
 * Schedule
   * [[chronos|https://github.com/thomashuang/chronos]]
 * [[Socket.IO|http://socket.io/]]

@@ -94,40 +94,39 @@ Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
 - [tornado_s3](https://github.com/kernel1983/tornado_s3) 
 - [tornado_ses](https://github.com/kernel1983/tornado_ses) AWS SES 邮箱发送客户端
 
-## Helper Libraries / Frameworks
-* [[AsyncMongo-Sessions|https://github.com/joerussbowman/AsyncMongo-Sessions]] - A sessions library for Tornado using AsyncMongo
-* [[userapp.tornado|https://github.com/userapp-io/userapp-tornado]] - Tornado specific decorators for easy user authentication using [[UserApp|https://www.userapp.io/]].
-* [[dustdevil|https://github.com/inviscid/dustdevil]] - Lightweight session handling class w/ multiple backends
-and MongoDB.
-* [[greenado|https://github.com/virtuald/greenado]] - Greenlet-based coroutines for Tornado
-* [[handlerbag|https://github.com/parente/handlerbag]] - A little layer on top of Tornado to manage a bag of dynamic utility handlers
-* [[OpenCoweb|http://github.com/opencoweb/coweb]] - Framework for building cooperative web apps; includes a Tornado coweb server based on the [[cometd|http://cometd.org/]] [[Bayeux|http://cometd.org/documentation/bayeux/spec]] protocol
-* [[pycket|https://github.com/diogobaeder/pycket]] - session library, written for use with Redis or Memcached, and Tornado
-* [[Shelter|https://github.com/seznam/shelter]] - tool for creation new application skeleton, management commands or service processes.
-* [[shrapnel|https://github.com/kurtiss/shrapnel]] -  a set of tools for building webapps on top of Tornado
-* [[Swirl|http://code.naeseth.com/swirl/]] - async decorator (made redundant in Tornado 2.1+ by tornado.gen?)
-* [[Tinman|http://github.com/gmr/tinman]] - support package including an application wrapper/runner and a set of handy decorators
-* [[Tornado Add-ons|http://github.com/nod/tornado_addons]] - Small library of useful addons, including a @route decorator.
-* [[tornado-routes|https://github.com/troolee/tornado-routes]] — @route decorator. Supports `include`, `reverse_url` by name and/or handler class name.
-* [[tornado-util|https://github.com/hhru/tornado-util]] - helpers functions that emerged from production
-use of Tornado in hh.ru
-* [[tornado-utils|https://github.com/peterbe/tornado-utils]] - A bunch of Tornado specific python utilities originally used on Kwissle.com
-* [[Tornado Tracing|http://github.com/bdarnell/tornado_tracing]] - Performance tracing library for Tornado
-* [[Tornado Tools|http://truemped.github.com/tornadotools/]] - This is a small library integrating other libraries as well as providing smaller tools for working with Tornado
-* [[Torneira|https://github.com/marcelnicolay/torneira]] - Torneira is a lightweight and rapid web framework build on top of Tornado
-* [[tornado-celery|https://github.com/mher/tornado-celery]] - Celery task queue integration with Tornado
-* [[tornado-spdy|https://github.com/alekstorm/tornado/tree/spdy]] - Fork of Tornado providing experimental SPDY v2 support.
-* [[Toro|http://toro.readthedocs.org/]] - Locks and queues for Tornado before 4.2 (beginning in version 4.2, [[Toro's locks and queues are included in Tornado itself|http://www.tornadoweb.org/en/stable/releases/v4.2.0.html#new-modules-tornado-locks-and-tornado-queues]])
-* [[Mojo|https://github.com/lonelycode/Mojo]] - A django-like framework for Tornado, with lightweight ORM and backend support
-* [[tornado-encookie|https://github.com/whardier/tornado-encookie]] - Encrypted cookie support for Tornado (quick session replacement)
-* [[twork|https://github.com/bufferx/twork]] - twork is a Tornado app frameWork
-* [[mownfish|https://https://github.com/Ethan-Zhang/mownfish]] - A productional skeleton for Tornado
-* [[Tornado-JSON|https://github.com/hfaran/Tornado-JSON]] - A simple JSON API framework based on Tornado
-* [[Torngas|https://github.com/mqingyn/torngas]] - A Django like framework based on Tornado
-* [[Tokit|https://github.com/manhgd/tokit]] - A library for bootstrap project based on Tornado
-* [[tortik|https://github.com/glibin/tortik]] - A microframework atop of Tornado for easier develop of SOA-based (microservices) applications
-* [[app-turbo|https://github.com/wecatch/app-turbo]] - A web framework based on Tornado for easier develop, scaling up and maintenance
-* [[Blackgate|https://github.com/soasme/blackgate]] - An API gateway application based on Tornado
+> Tornado脚手架程序
+---------
+- [AsyncMongo-Sessions](https://github.com/joerussbowman/AsyncMongo-Sessions) 用AsyncMongo的一个Tornado Session库
+- [userapp.tornado](https://github.com/userapp-io/userapp-tornado) Tornado用户验证装饰器,被用在[UserApp](https://www.userapp.io/)
+- [dustdevil](https://github.com/inviscid/dustdevil) 轻量级的session工具,能够使用多个存储后端和mongodb
+- [greenado](https://github.com/virtuald/greenado) 基于Greenlet的coroutines
+- [handlerbag](https://github.com/parente/handlerbag) A little layer on top of Tornado to manage a bag of dynamic utility handlers
+- [OpenCoweb](http://github.com/opencoweb/coweb) 一个构建web app的框架 ,基于[cometd](http://cometd.org/) 和[Bayeux](http://cometd.org/documentation/bayeux/spec) 协议
+- [pycket](https://github.com/diogobaeder/pycket) 用memcached和redis构建的session库
+- [Shelter](https://github.com/seznam/shelter） 创建新程序的骨架, 管理命令和服务进程
+- [shrapnel](https://github.com/kurtiss/shrapnel) 构建webapp的脚手架工具
+- [Swirl](http://code.naeseth.com/swirl/)
+- [Tinman](http://github.com/gmr/tinman) 一个包括了程序wrapper/runner和一些装饰器的工具包
+- [Tornado Add-ons](http://github.com/nod/tornado_addons) 一个非常有用的库,包含了@route类似的装饰器封装
+- [tornado-routes](https://github.com/troolee/tornado-routes)  包含@route装饰器的封装
+- [tornado-util](https://github.com/hhru/tornado-util) 一些脚手架程序
+- [tornado-utils](https://github.com/peterbe/tornado-utils) 一些脚手架程序
+- [Tornado Tracing](http://github.com/bdarnell/tornado_tracing) 测试tornado性能的库
+- [Tornado Tools](http://truemped.github.com/tornadotools/) 集成了一些对tornado有用代码的库
+- [Torneira](https://github.com/marcelnicolay/torneira) 基于tornado封装的web框架
+- [tornado-celery](https://github.com/mher/tornado-celery) 方便集成到tornado的celery扩展
+- [tornado-spdy](https://github.com/alekstorm/tornado/tree/spdy) SPDY v2 support.
+- [Toro](http://toro.readthedocs.org/) 在4.2之前的包括队列和锁的工具包,现在已经被tornado合并到框架中
+- [Mojo](https://github.com/lonelycode/Mojo) 一个轻量级的类似django web框架,内置了一个轻量级的orm
+- [tornado-encookie](https://github.com/whardier/tornado-encookie) 对tornado的加密cookie支持
+- [twork](https://github.com/bufferx/twork) twork是一个基于tornado的app框架
+- [mownfish](https://https://github.com/Ethan-Zhang/mownfish) tornado一个生产级别的骨架
+- [Tornado-JSON](https://github.com/hfaran/Tornado-JSON) 一个基于tornado的json api框架
+- [Torngas](https://github.com/mqingyn/torngas) 又一个类似django的tornado框架
+- [Tokit](https://github.com/manhgd/tokit) 基于tornado集成了bootstrap的框架
+- [tortik](https://github.com/glibin/tortik) tornado 的一个微服务框架(SOA)
+- [app-turbo](https://github.com/wecatch/app-turbo) 一个基于tornado的易于扩展的web框架
+- [Blackgate](https://github.com/soasme/blackgate) 一个基于tornado的api gateway程序
 
 ## Projects Built on Tornado
 * [[dillinger|https://github.com/ExtensionFM/dillinger]] - Tornado + ZMQ proof of concept.

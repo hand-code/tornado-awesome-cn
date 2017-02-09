@@ -5,43 +5,44 @@ Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
 ---------
 
 - 网站资源
-    - [Tornado构建的站点列表](http://tornado.poweredsites.org)
-    - [Tornado 相关的一些snippets code](http://tornadogists.com/)
-    - [中文镜像Tornado站](http://www.tornadoweb.cn)
+ - [Tornado构建的站点列表](http://tornado.poweredsites.org)
+ - [Tornado 相关的一些snippets code](http://tornadogists.com/)
+ - [中文镜像Tornado站](http://www.tornadoweb.cn)
 
 > 用tornado.ioloop构建的异步客户端
 ---------
 - [Amazon DynamoDB](http://aws.amazon.com/dynamodb/)
-    - [asyncdynamo](https://github.com/bitly/asyncdynamo)
-* [[Amazon Web Services|http://aws.amazon.com]]
-  * [[ botocore|https://github.com/boto/botocore ]] with [[ tornado-botocore|https://github.com/nanvel/tornado-botocore ]]
-* [[AMQP|http://www.amqp.org/]]
-  * [[stormed-amqp|https://github.com/paolo-losi/stormed-amqp]] - [[amqp|http://www.amqp.org/]] 0.9.1 compliant
-* [[Beanstalkd|http://kr.github.com/beanstalkd/]]
-  * [[beanstalkt|https://bitbucket.org/nephics/beanstalkt]]
-* [[CouchDB|http://couchdb.apache.org/]]
-  * [[trombi|http://github.com/inoi/trombi]]
-  * [[corduroy|http://samizdat.cc/corduroy]]
-  * [[tornado-couchdb|https://bitbucket.org/nephics/tornado-couchdb/overview]] - Blocking and non-blocking (asynchronous) clients to access CouchDB using Tornado's httpclient.
-* DNS
-  * [[tornado-dns|https://github.com/eklitzke/tornado-dns]]
-* [[HBase|http://hbase.apache.org/]]
-  * [[pyhbase|https://github.com/mjrusso/pyhbase]] - HBase Avro client
-* [[Memcached|http://memcached.org/]]
-  * [[tornado-memcache|https://github.com/dpnova/tornado-memcache]]
-  * [[asyncmc|https://github.com/jeffhodsdon/asyncmc]]
-  * [[asyncmc|https://github.com/ErDmKo/asyncmc]] - python 2.7 and python 3
-  * [[memnado|https://github.com/clofresh/memnado]]
-* [[MongoDB|http://www.mongodb.org/]] 
-  * [[asyncmongo|http://github.com/bitly/asyncmongo]]
-  * [[Motor|http://github.com/mongodb/motor/]]
-  * [[PyEnty|https://github.com/leodesouza/pyenty/]]
-* [[MySQL|http://www.mysql.com/]]
-  * [[amysql|https://github.com/abael/amysql]] pure C language, base on Python native socket(support Python async).
-  * [[adb|https://github.com/ovidiucp/pymysql-benchmarks]] - 
-[[adisp|https://launchpad.net/adisp]]/[[MySQLdb|http://mysql-python.sourceforge.net/]] based
-  * [[TorMySQL|https://github.com/snower/TorMySQL]] Tornado asynchronous MySQL Driver by PyMySQL
-  * [[Tornado-MySQL|https://github.com/PyMySQL/Tornado-MySQL]] PyMySQL fork for Tornado
+ - [asyncdynamo](https://github.com/bitly/asyncdynamo)
+- [Amazon Web Services](http://aws.amazon.com)
+ - [tornado-botocore](https://github.com/nanvel/tornado-botocore)
+- [AMQP](http://www.amqp.org/)
+ - [stormed-amqp](https://github.com/paolo-losi/stormed-amqp)
+ - [amqp](http://www.amqp.org/)
+- [Beanstalkd](http://kr.github.com/beanstalkd/)
+ - [beanstalkt](https://bitbucket.org/nephics/beanstalkt)
+- [CouchDB](http://couchdb.apache.org/)
+ - [trombi](http://github.com/inoi/trombi)
+ - [corduroy](http://samizdat.cc/corduroy)
+ - [tornado-couchdb](https://bitbucket.org/nephics/tornado-couchdb/overview)
+- DNS
+ - [tornado-dns](https://github.com/eklitzke/tornado-dns)
+- [HBase](http://hbase.apache.org/)
+ - [pyhbase](https://github.com/mjrusso/pyhbase)
+- [Memcached](http://memcached.org/)
+ - [tornado-memcache](https://github.com/dpnova/tornado-memcache)
+ - [asyncmc](https://github.com/jeffhodsdon/asyncmc)
+ - [asyncmc](https://github.com/ErDmKo/asyncmc)
+ - [memnado](https://github.com/clofresh/memnado)
+- [MongoDB](http://www.mongodb.org/) 
+ - [asyncmongo](http://github.com/bitly/asyncmongo)
+ - [Motor](http://github.com/mongodb/motor/)
+ - [PyEnty](https://github.com/leodesouza/pyenty/)
+- [MySQL](http://www.mysql.com/)
+ - [amysql](https://github.com/abael/amysql) pure C language, base on Python native socket(support Python async).
+ - [adb](https://github.com/ovidiucp/pymysql-benchmarks) 
+ - [adisp](http://mysql-python.sourceforge.net/)
+ - [TorMySQL](https://github.com/snower/TorMySQL) Tornado asynchronous MySQL Driver by PyMySQL
+ - [Tornado-MySQL](https://github.com/PyMySQL/Tornado-MySQL) PyMySQL fork for Tornado
 * [[NATS|http://nats.io/]]
   * [[python-nats|https://github.com/nats-io/python-nats]] A Python async client for the NATS messaging system.
 * [[PostgreSQL|http://www.postgresql.org/]]

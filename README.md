@@ -59,24 +59,24 @@ Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
  - [tornadis](https://github.com/thefab/tornadis)
 - [RethinkDB](https://www.rethinkdb.com/) 
  - [rethinkdb](https://www.rethinkdb.com/docs/async-connections/#python-with-tornado-or-twisted)
-* Schedule
-  * [[chronos|https://github.com/thomashuang/chronos]]
-* [[Socket.IO|http://socket.io/]]
-  * [[tornadio2|https://github.com/MrJoes/tornadio2]]
-* Socks5 Proxy Server
-  * [[Fukei|https://github.com/thomashuang/Fukei]]
-* [[Solr|http://lucene.apache.org/solr/]]
-  * [[pysolr-tornado|https://github.com/nieldomingo/pysolr-tornado]] based on [[pysolr|https://github.com/toastdriven/pysolr]]
-* [[subprocess|http://docs.python.org/library/subprocess.html]] (local)
-  * [[AsyncProcessMixIn|https://gist.github.com/pplante/489093]]
-* [[SMTP|http://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol]]
-  * [[smtp|https://gist.github.com/1358253]]
-* XML-RPC/JSON-RPC
-  * [[tornadorpc|https://github.com/joshmarshall/tornadorpc]]
-  * [[tornado-fastrpc|https://github.com/seznam/tornado-fastrpc]] XML-RPC and FastRPC (see FastRPC [[https://github.com/seznam/fastrpc]]) client
-* [[Server-sent events (EventSource)|http://dev.w3.org/html5/eventsource/]]
-  * Python/Tornado's [[event-source-library|https://github.com/guyzmo/event-source-library]]
-  * [Tornado-sent events](https://github.com/mivade/tornadose)
+- Schedule
+ - [chronos](https://github.com/thomashuang/chronos)
+- [Socket.IO](http://socket.io/)
+ - [tornadio2](https://github.com/MrJoes/tornadio2)
+- Socks5 Proxy Server
+ - [Fukei](https://github.com/thomashuang/Fukei)
+- [Solr](http://lucene.apache.org/solr/)
+ - [pysolr-tornado](https://github.com/nieldomingo/pysolr-tornado) based on [pysolr](https://github.com/toastdriven/pysolr)
+- [subprocess](http://docs.python.org/library/subprocess.html)
+ - [AsyncProcessMixIn](https://gist.github.com/pplante/489093)
+- [SMTP](http://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
+ - [smtp](https://gist.github.com/1358253)
+- XML-RPC/JSON-RPC
+ - [tornadorpc](https://github.com/joshmarshall/tornadorpc)
+ - [tornado-fastrpc](https://github.com/seznam/tornado-fastrpc) XML-RPC and FastRPC (see [FastRPC] (https://github.com/seznam/fastrpc)) client
+- [Server-sent events](http://dev.w3.org/html5/eventsource/)
+ - [event-source-library](https://github.com/guyzmo/event-source-library)
+ - [Tornado-sent events](https://github.com/mivade/tornadose)
 
 ## Web API Libraries
 * [[async_dropbox|https://github.com/bdarnell/async_dropbox]] - Asynchronous python interface to the Dropbox API.

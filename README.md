@@ -128,40 +128,43 @@ Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
 - [app-turbo](https://github.com/wecatch/app-turbo) 一个基于tornado的易于扩展的web框架
 - [Blackgate](https://github.com/soasme/blackgate) 一个基于tornado的api gateway程序
 
-## Projects Built on Tornado
-* [[dillinger|https://github.com/ExtensionFM/dillinger]] - Tornado + ZMQ proof of concept.
-* [[Eucalyptus User Console|http://coderslike.us/2012/11/11/installing-the-eucalyptus-console-from-source-and-packages/]] - User Console using Tornado, boto, jQuery.
-* [[Gate One|https://github.com/liftoff/GateOne]] - Web-based Terminal Emulator and SSH Client.
-* [[GraphTerm|https://github.com/mitotic/graphterm]] - A "graphical terminal interface" that extends xterm by adding GUI-like features and session sharing
-* [[hbase-tornado-demo|https://github.com/hammer/hbase-tornado-demo]] - A demonstration of how to use HBase and Tornado to build a web application.
-* [[Image Resizing Server|https://github.com/noony/ImageResizingServer/]] - This server provides a service to resize and crop images with a simple API GET.
-* [[iPython Notebook|http://ipython.org/ipython-doc/dev/interactive/htmlnotebook.html]] - interactive notebook for running/sharing Python code w/ rich data display (plotting, math symbols, etc)
-* [[protocolbuf-rpc-server|http://code.google.com/p/protocolbuf-rpc-server/source/browse/#svn%2Ftrunk%2Fprotocolbuf-rpc-serverhttps]] - RPC server using protobuf
-* [[tornado-protobuf-utils|https://github.com/hhru/tornado-protobuf-utils]] - Protobuf over http client
-* [[ragechats|https://github.com/ragechats/ragechats]] - Reddit themed real-time chats using Tornado, WebSockets, and Redis.
-* [[redqueue|https://github.com/superisaac/redqueue]] - A light-weight queue server in python tornado, it uses memcache protocol and store queues persistently.
-* [[Scale0|https://github.com/joerussbowman/Scale0]] - A proxy server using zeromq and Tornado.
-* [[selene|https://github.com/puentesarrin/selene]] -  A simple CMS for blogging built with Tornado and MongoDB
-* [[spotnado|https://github.com/mkjones/spotnado]] - A Tornado webserver for controlling Spotify.
-* [[Spyder|http://retresco.github.com/Spyder/]] - Spyder is a scalable web-spider written in Python using the non-blocking Tornado library and ZeroMQ as messaging layer. The messages are serialized using Thrift.
-* [[tornado-blog|https://github.com/bgolub/tornado-blog]] - Blog system (more involved than the demo).
-* [[tornadio-chat|https://github.com/gabrielfalcao/tornadio-chat]] - socket.io + tornado chat example.
-* [[tornado-couchdb-pubsubhubbub-aggregator|https://github.com/bsstoner/tornado-couchdb-pubsubhubbub-aggregator]] - Simple Tornado app that accepts posts from PubSubHubBub feeds, saves the entries to couchdb and streams them live to the page as they come in.
-* [[torque|https://github.com/thruflo/torque]] - A web hook task queue based on tornado and redis.
-* [[tweetwatcher|https://github.com/joshmarshall/tweetwatcher]] - Tiny Tornado site for monitoring Twitter Streaming API with Websockets / long polling.
-* [[uploadr|https://github.com/nbarrientos/uploadr]] - Simple file hosting service written on top of Tornado.
-* [[toocool|https://github.com/peterbe/toocool]] - Twitter app http://TooCoolFor.Me (redis, Celery, MongoDB).
-* [[restful-distributed-lock-manager (RDLM)|https://github.com/thefab/restful-distributed-lock-manager]] - A RESTful Distributed Lock Manager
-* [[ spiro|https://github.com/koblas/spiro]] - A Tornado Web Crawler (Distributed) 
-* [[ blackhole|http://blackhole.io]] - Tornado powered MTA (mail transport agent) that is designed for handling large volumes of email without handling any of the messages and doing no disk bound I/O.
-* [[hoard|https://github.com/kura/hoard]] - A Tornado powered honey pot MTA built on top of Blackhole
-* [[torelp|https://github.com/whardier/torelp]] - Tornado based RELP server (Reliable Event Logging Protocol) designed to receive logs from RELP capable log servers (rsyslog)
-* [[Wpull|https://github.com/chfoo/wpull]] - Wget-compatible web downloader.
-* [[graphite-beacon|https://github.com/klen/graphite-beacon]] - Graphite Alerting application.
-* [[ohmyrepo|https://github.com/no13bus/ohmyrepo]] - It use github webhook and highchart to analysis and show that who star your repository, where are they and show the top 5 followers. And you can fellow some users.
 
-## Tornado Ports
-* [[Cyclone|http://github.com/fiorix/cyclone]] - Tornado ported to the Twisted event loop.
-* [[gtornado|https://github.com/wil/gtornado]] - Monkey-patched module to use gevent.
+> 用Tornado构建的项目
+---------
+- [dillinger](https://github.com/ExtensionFM/dillinger) tornado和zmq的一个组合
+- [Eucalyptus User Console](http://coderslike.us/2012/11/11/installing-the-eucalyptus-console-from-source-and-packages/) - 用tornado做的一个console,使用了jquery
+- [Gate One](https://github.com/liftoff/GateOne) 基于web的一个ssh模拟器
+- [GraphTerm](https://github.com/mitotic/graphterm) 一个session共享的图形终端接口
+- [hbase-tornado-demo](https://github.com/hammer/hbase-tornado-demo) 使用hbase和tornado去构建网站的demo
+- [Image Resizing Server](https://github.com/noony/ImageResizingServer/) 提供图像缩放和裁剪的服务
+- [iPython Notebook](http://ipython.org/ipython-doc/dev/interactive/htmlnotebook.html) ipython交互环境
+- [protocolbuf-rpc-server](http://code.google.com/p/protocolbuf-rpc-server/source/browse/#svn%2Ftrunk%2Fprotocolbuf-rpc-serverhttps) - 用protobuf的一个rpc服务
+- [tornado-protobuf-utils](https://github.com/hhru/tornado-protobuf-utils) protobuf的一个客户端
+- [ragechats](https://github.com/ragechats/ragechats) 用websocket, redis构建的一个realtime app
+- [redqueue](https://github.com/superisaac/redqueue) 兼容memcached的一个基于tornado构建的服务
+- [Scale0](https://github.com/joerussbowman/Scale0) 用zeromq和tornado构建的server
+- [selene](https://github.com/puentesarrin/selene) 一个基于mongodb和 tornado构建的简单cms
+- [spotnado](https://github.com/mkjones/spotnado) 基于tornado的质量控制服务器
+- [Spyder](http://retresco.github.com/Spyder/) 是一个可伸缩的web蜘蛛程序,基于zeromq作为消息层,消息的序列化方式为thrift
+- [tornado-blog](https://github.com/bgolub/tornado-blog) 一个博客系统
+- [tornadio-chat](https://github.com/gabrielfalcao/tornadio-chat) socket.io + tornado 构建的聊天例子
+- [tornado-couchdb-pubsubhubbub-aggregator](https://github.com/bsstoner/tornado-couchdb-pubsubhubbub-aggregator) feed聚合器
+- [torque](https://github.com/thruflo/torque) 基于tornado和redis的一个webhook例子
+- [tweetwatcher](https://github.com/joshmarshall/tweetwatcher)
+- [uploadr](https://github.com/nbarrientos/uploadr) 基于tornado的一个简单文件伺服机
+- [toocool](https://github.com/peterbe/toocool) redis ,celeary,mongodb一个twitter app
+- [restful-distributed-lock-manager (RDLM)](https://github.com/thefab/restful-distributed-lock-manager) 一个 RESTful 分布式锁管理服务器
+- [ spiro](https://github.com/koblas/spiro) 一个分布式web采集程序
+- [ blackhole](http://blackhole.io)
+- [hoard](https://github.com/kura/hoard)
+- [torelp](https://github.com/whardier/torelp) - Tornado based RELP server (Reliable Event Logging Protocol) designed to receive logs from RELP capable log servers (rsyslog)
+- [Wpull](https://github.com/chfoo/wpull) wget兼容的web下载器
+- [graphite-beacon](https://github.com/klen/graphite-beacon) 图形化的提示程序
+- [ohmyrepo](https://github.com/no13bus/ohmyrepo) 
 
-## Tornado Powered Sites
+
+> Tornado周边
+---------
+- [Cyclone](ttp://github.com/fiorix/cyclone) 使用Twisted event loop
+- [gtornado](https://github.com/wil/gtornado) 使用gevent的猴子补丁
+

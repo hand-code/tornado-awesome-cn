@@ -36,6 +36,7 @@ Awesome Tornado [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
  - [Motor](http://github.com/mongodb/motor/)
  - [PyEnty](https://github.com/leodesouza/pyenty/)
 - [MySQL](http://www.mysql.com/)
+- [tornado-sqlalchemy](https://github.com/siddhantgoel/tornado-sqlalchemy)
  - [amysql](https://github.com/abael/amysql) pure C language, base on Python native socket(support Python async).
  - [adb](https://github.com/ovidiucp/pymysql-benchmarks) 
  - [adisp](http://mysql-python.sourceforge.net/)
